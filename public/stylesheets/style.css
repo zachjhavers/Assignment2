@@ -1,8 +1,152 @@
+
+/*General CSS*/
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Roboto Mono", sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+h{
+  font-family: "Roboto Mono";
+}
+
+/*Intro Block Container And Sale Block Container for Homepage*/
+
+.introBlock, .saleBlock1, .saleBlock2{
+  position: relative;
+  background-color: lightgrey;
+  margin: 3%;
+  padding: 7%;
+}
+
+
+/*Contact Form CSS*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid black; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+
+.contactForm {
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 100px;
+  font-family: "Roboto Mono";
+}
+
+/*End Of Contact Form CSS*/
+
+/*Container For Project Page*/
+
+.Project1, .Project2, .Project3{
+  position: relative;
+  background-color: lightgray;
+  padding: 27%;
+  margin: 3%;
+}
+
+/*General Text Block CSS*/
+
+.text-block {
+  position:absolute;
+  top: 30px;
+  right: 20px;
+  left: 20px;
+  background-color: lightsteelblue;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left:500px;
+  font-family: "Roboto Mono";
+  font-size: 25px;
+  box-shadow: 0 1px 2px #aaa;
+  border-radius: 10px;
+}
+
+/*Image CSS For Project Page*/
+
+.ProjIm1, .ProjIm2, .ProjIm3{
+  position: absolute;
+  top: 175px;
+  left: 175px;
+}
+
+/*Containers For Text And Image For About Page*/
+
+.aboutBlock1, .aboutBlock2{
+  position: relative;
+  background-color: lightgrey;
+  margin: 3%;
+  padding: 18%;
+}
+
+/*Containers For Text And Image For Services Page*/
+
+.Service1, .Service2, .Service3, .Service4 {
+  position: relative;
+  background-color: lightgray;
+  padding: 20%;
+  margin: 3%;
+}
+
+/*Text Box CSS For Services Page*/
+
+.text-block1, .text-block2, .text-block3, .text-block4 {
+  position:absolute;
+  top: 200px;
+  right: 20px;
+  left: 20px;
+  background-color: lightsteelblue;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left:500px;
+  font-family: "Roboto Mono";
+  font-size: 25px;
+  box-shadow: 0 1px 2px #aaa;
+  border-radius: 10px;
+}
+
+/*Image CSS For Services Page*/
+
+.ServIm1, .ServIm2, .ServIm3{
+  position: absolute;
+  top: 130px;
+  left: 175px;
+}
+
+.ServIm4{
+  position: absolute;
+  top: 200px;
+  left: 175px;
 }
