@@ -1,0 +1,62 @@
+    <!--Header-->
+    <%- include('../partials/header.ejs') %>
+
+    <!--Main Navigation-->
+    <%- include('../partials/nav.ejs') %>
+
+    <!--Content For Add Page-->
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-3 col-md-6">
+                <h1><%= title %></h1>
+
+                <form class="form" method="POST">
+
+                    <div class="form-group">
+                        <label for="nameTextFeild">Name</label>
+                        <input type="text" class="form-control"
+                            id="nameTextFeild"
+                            placeholder="Enter Contact Name"
+                            name="name" required>
+                    </div>
+                    
+
+                    <div class="form-group">
+                        <label for="phoneTextFeild">Phone</label>
+                        <input type="text" class="form-control"
+                            id="phoneTextFeild"
+                            placeholder="Enter Contact Phone"
+                            name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="birthTextFeild">Birthday</label>
+                        <input type="text" class="form-control"
+                            id="birthdayTextFeild"
+                            placeholder="Enter Contact Birthday"
+                            name="birthday" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="emailTextFeild">Email</label>
+                        <input type="text" class="form-control"
+                            id="emailTextFeild"
+                            placeholder="Enter Contact Email"
+                            name="email" required>
+                    </div>
+
+                    <button class="btn btn-primary" type="submit">
+                        <i class="fas fa-edit"></i>Submit
+                    </button>
+
+                    <a href="/contact-list" class="btn btn-warning">
+                        <i class="fas fa-undo"></i>Cancel</a>
+
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <%- include('../partials/footer.ejs') %>

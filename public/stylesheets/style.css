@@ -57,7 +57,7 @@ input[type=submit]:hover {
 
 .contactForm {
   border-radius: 5px;
-  background-color: lightblue;
+  background-color: lightgray;
   padding: 100px;
   font-family: "Roboto Mono";
 }
@@ -151,4 +151,9 @@ input[type=submit]:hover {
   position: absolute;
   top: 200px;
   left: 175px;
+}
+
+.row{
+  width: auto;
+  margin: auto;
 }

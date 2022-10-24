@@ -1,0 +1,46 @@
+<!-- Assignment 2 //  Zachary Havers // 301202845  // 2022-10-24 --> 
+
+    <!--Header-->
+    <%- include('partials/header.ejs') %>
+
+    <!--Main Navigation-->
+    <%- include('partials/nav.ejs') %>
+
+    <!--Contact Form-->
+
+    <div class="contactForm">
+        <form>
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="First Name">
+            <p></p>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Last Name">
+            <p></p>
+          <label for="phoneNum">Phone Number</label>
+          <input type="text" id="pNum" name="phoneNum" placeholder="Phone Number">
+          <p></p>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email Address">
+          <p></p>
+          <label for="country">Country</label>
+          <p></p>
+          <select id="country" name="country">
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <p></p>
+          <label for="subject">Subject</label>
+            <p></p>
+          <textarea id="subject" name="subject" placeholder="Please Let Me Know How I Can Help!" style="height:200px"></textarea>
+            <p></p>
+            <p></p>
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+    <!--End of Contact Form-->
+
+    <!--Bottom Navigation-->
+    <%- include('partials/footer.ejs') %>
